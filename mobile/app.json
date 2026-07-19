@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "BJJ Analyzer",
+    "slug": "bjj-analyzer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0f"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bjjanalyzer.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Camera needed to record BJJ matches",
+        "NSPhotoLibraryUsageDescription": "Photo library needed to upload match videos",
+        "NSMicrophoneUsageDescription": "Microphone needed for video recording"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0a0f"
+      },
+      "package": "com.bjjanalyzer.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+  "expo-camera",
+  [
+    "expo-image-picker",
+    {
+      "photosPermission": "Allow BJJ Analyzer to access your photos.",
+      "cameraPermission": "Allow BJJ Analyzer to access your camera.",
+      "microphonePermission": "Allow BJJ Analyzer to record audio with videos."
+    }
+  ],
+  [
+    "expo-document-picker",
+    {
+      "iCloudContainerEnvironment": "Production"
+    }
+  ]
+]
+  }
+}
