@@ -1,0 +1,13 @@
+# ---- Hybrid position stage (the new part) ----
+ultralytics>=8.0        # runs the trained YOLOv8 detector (weights/bjj_yolo18_domain.pt)
+opencv-python
+numpy
+pandas
+
+# ---- Tracking stage (you already have these from the old pipeline) ----
+# mmcv-full, mmdet, mmpose  -> installed as part of your existing DETR + ViTPose setup.
+# Not pip-listed here because their versions must match your CUDA/torch build.
+# torch / torchvision       -> same build you already use.
+
+# ---- Style stage ----
+# analyze_player_styles.py uses only the Python standard library. Nothing to install.

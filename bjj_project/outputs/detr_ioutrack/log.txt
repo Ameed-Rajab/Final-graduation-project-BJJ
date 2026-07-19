@@ -1,0 +1,138 @@
+2026-04-09 16:44:18,675  INFO  Video: temp\input.mp4
+2026-04-09 16:44:18,676  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-04-09 16:44:29,834  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=3.7s
+2026-04-09 16:45:02,977  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=36.9s
+2026-04-09 17:23:28,929  INFO  Video: temp\user_1_22_match.mp4
+2026-04-09 17:23:28,929  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-04-09 17:23:42,254  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=4.8s
+2026-04-09 17:24:33,982  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=56.6s
+2026-04-12 15:29:15,823  INFO  Video: temp\user_1_22_match.mp4
+2026-04-12 15:29:15,824  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-04-12 15:29:32,577  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=4.7s
+2026-04-12 15:30:35,369  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=67.5s
+2026-04-30 18:53:08,559  INFO  Video: temp\user_2_22_match.mp4
+2026-04-30 18:53:08,559  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-04-30 18:53:21,973  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=4.4s
+2026-04-30 18:53:57,361  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=39.7s
+2026-05-05 21:39:27,154  INFO  Video: temp\user_1_22_match.mp4
+2026-05-05 21:39:27,155  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-05 21:39:42,376  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=7.5s
+2026-05-05 21:42:04,489  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=149.7s
+2026-05-05 21:42:49,091  INFO  Video: temp\user_1_22_match.mp4
+2026-05-05 21:42:49,091  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-05 21:43:00,114  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=6.0s
+2026-05-05 21:45:22,073  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=148.0s
+2026-05-05 21:50:07,701  INFO  Video: temp\user_1_22_match.mp4
+2026-05-05 21:50:07,701  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-05 21:50:15,627  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=2.7s
+2026-05-05 21:53:15,406  INFO  Video: temp\user_1_22_match.mp4
+2026-05-05 21:53:15,407  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-05 21:53:23,225  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=2.3s
+2026-05-05 21:55:08,456  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=107.5s
+2026-05-05 21:56:21,888  INFO  Video: temp\user_1_22_match.mp4
+2026-05-05 21:56:21,888  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-05 21:56:30,169  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=2.0s
+2026-05-05 21:57:43,600  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=75.4s
+2026-05-05 22:03:32,427  INFO  Video: temp\user_1_22_match.mp4
+2026-05-05 22:03:32,428  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-05 22:03:40,357  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=2.5s
+2026-05-05 22:05:09,613  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=91.7s
+2026-05-05 22:06:27,565  INFO  Video: temp\user_1_22_match.mp4
+2026-05-05 22:06:27,566  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-05 22:07:37,886  INFO  Video: temp\user_1_22_match.mp4
+2026-05-05 22:07:37,887  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-05 22:07:44,672  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=2.3s
+2026-05-05 22:09:49,150  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=126.8s
+2026-05-06 19:37:51,798  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 19:37:51,798  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 19:38:07,760  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=6.0s
+2026-05-06 19:38:36,553  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=34.7s
+2026-05-06 19:40:48,019  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 19:40:48,027  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 19:40:57,787  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=2.5s
+2026-05-06 19:41:24,103  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=28.8s
+2026-05-06 19:44:24,886  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 19:44:24,886  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 19:44:36,802  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=4.7s
+2026-05-06 19:45:04,058  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=31.9s
+2026-05-06 19:50:24,348  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 19:50:24,348  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 19:50:37,606  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=4.7s
+2026-05-06 19:51:22,727  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 19:51:22,727  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 19:51:35,662  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=3.1s
+2026-05-06 19:52:05,389  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=32.8s
+2026-05-06 20:03:05,426  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 20:03:05,426  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 20:03:18,380  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=4.9s
+2026-05-06 20:03:47,341  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=33.8s
+2026-05-06 20:10:58,576  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 20:10:58,576  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 20:11:12,202  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=6.0s
+2026-05-06 20:11:40,527  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=34.3s
+2026-05-06 20:24:13,773  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 20:24:13,774  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 20:24:22,949  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=4.1s
+2026-05-06 20:26:17,465  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=118.6s
+2026-05-06 20:31:09,712  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 20:31:09,712  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 20:31:16,241  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=1.9s
+2026-05-06 20:32:52,926  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=98.6s
+2026-05-06 20:41:33,673  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 20:41:33,674  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 20:41:42,282  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=3.5s
+2026-05-06 20:43:33,893  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=115.1s
+2026-05-06 21:18:52,192  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 21:18:52,192  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 21:19:05,509  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=4.8s
+2026-05-06 21:19:33,722  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=33.0s
+2026-05-06 21:21:39,247  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 21:21:39,247  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 21:21:46,364  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=2.1s
+2026-05-06 21:22:18,466  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=34.2s
+2026-05-06 21:25:46,211  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 21:25:46,211  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 21:25:53,577  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=2.2s
+2026-05-06 21:26:24,640  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=33.3s
+2026-05-06 21:29:25,026  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 21:29:25,026  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 21:29:32,511  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=2.2s
+2026-05-06 21:30:12,067  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=41.8s
+2026-05-06 21:33:11,742  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 21:33:11,742  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 21:33:21,115  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=3.9s
+2026-05-06 21:33:52,998  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=35.8s
+2026-05-06 21:41:48,927  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 21:41:48,928  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 21:41:59,662  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=3.5s
+2026-05-06 21:42:54,833  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=58.6s
+2026-05-06 21:44:14,755  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 21:44:14,755  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 21:44:22,811  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=3.1s
+2026-05-06 21:44:58,656  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=38.9s
+2026-05-06 21:54:10,362  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 21:54:10,362  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 21:54:20,747  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=4.3s
+2026-05-06 21:54:51,094  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=34.6s
+2026-05-06 22:02:50,643  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 22:02:50,643  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 22:02:59,995  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=3.4s
+2026-05-06 22:05:02,248  INFO  Video: temp\user_1_22_match.mp4
+2026-05-06 22:05:02,248  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-06 22:05:14,360  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=4.7s
+2026-05-06 22:05:51,334  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=41.6s
+2026-05-07 11:12:05,912  INFO  Video: temp\user_1_22_match.mp4
+2026-05-07 11:12:05,913  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-07 11:12:29,891  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=8.7s
+2026-05-07 11:12:57,894  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=36.7s
+2026-05-07 13:19:38,608  INFO  Video: temp\user_1_22_match.mp4
+2026-05-07 13:19:38,608  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-08 16:09:01,246  INFO  Video: temp\user_1_22_input.mp4
+2026-05-08 16:09:01,246  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-08 16:09:12,590  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=3.7s
+2026-05-08 16:11:30,827  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=141.9s
+2026-05-08 16:12:34,171  INFO  Video: temp\user_1_22_recorded.mp4
+2026-05-08 16:12:34,171  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-08 16:12:49,842  INFO  frame=0 saved=0 dets=6 tracks=2 poses=2 elapsed=10.1s
+2026-05-08 16:15:28,496  INFO  frame=25 saved=25 dets=2 tracks=2 poses=2 elapsed=168.7s
+2026-05-08 16:18:06,247  INFO  frame=50 saved=50 dets=7 tracks=2 poses=2 elapsed=326.5s

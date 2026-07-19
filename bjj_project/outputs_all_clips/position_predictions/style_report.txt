@@ -1,0 +1,58 @@
+Player Style Analysis
+
+Input
+- Position directory: C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\outputs_all_clips\position_predictions
+- CSV: C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\outputs_all_clips\position_predictions\positions.csv
+- Label column used: pred_fixed
+- FPS assumed: 30.0
+- Attribution reliability: high (1.00)
+
+Match Sequence View
+- Family phases: 6 segments, average 74.67 frames (2.5s) per phase
+- Opening flow: Half guard, Closed guard, Half guard, Closed guard, Half guard, 50/50 guard
+- Ending flow: Half guard, Closed guard, Half guard, Closed guard, Half guard, 50/50 guard
+- Common transitions: Half guard -> Closed guard (2), Closed guard -> Half guard (2), Half guard -> 50/50 guard (1)
+- Common chains: Half guard -> Closed guard -> Half guard (2), Closed guard -> Half guard -> Closed guard (1), Closed guard -> Half guard -> 50/50 guard (1)
+- Strong motifs: guard->turtle 0, turtle->attack 0, pass->finish 0, finish cycles 0, takedown->reset 0, takedown->control 0
+- Read: The match features long control phases once a dominant position is established.
+
+Player 1
+- Primary profile: Guard passer (half guard passer)
+- Sequence profile: Guard/turtle recycler
+- Secondary traits: recycles exchanges through recovery loops, plays half guard, 50/50 involvement
+- Evidence: guard passing 43.8%, dominant top 0.0%, guard bottom 32.6%, bottom defense 0.0%, 50/50 23.7% (overall top 43.8% / bottom 32.6%)
+- Passes: half guard 43.5% (0.0% to control); closed guard 0.2% (0.0% to control)
+- Guards played: half guard 32.4% (0.0% retained); closed guard 0.2% (0.0% retained)
+- Attributed time: 448 frames (14.9s)
+- Control tempo: average owned phase 4.31 frames (0.1s), longest owned phase 106 frames (3.5s)
+- Progression: advances 51, concessions 51, net +1.0 (biggest advance +2.0, biggest concession -2.0)
+- Key positions: Half guard (passing) 195 (6.5s), Half guard (bottom) 145 (4.8s), 50/50 guard 106 (3.5s), Closed guard (bottom) 1 (0.0s), Closed guard (passing) 1 (0.0s)
+- Sequence read: Frequently revisits guard or turtle instead of letting the exchange end cleanly.
+- Recurring transitions: Half guard -> Half guard (98), Half guard -> Closed guard (2), Closed guard -> Half guard (2), Half guard -> 50/50 guard (1)
+- Recurring chains: Half guard -> Half guard -> Half guard (95), Half guard -> Half guard -> Closed guard (2), Half guard -> Closed guard -> Half guard (2), Closed guard -> Half guard -> Half guard (2)
+- Efficient counter style: Deny their half guard pass and steer them into a guard they finish less often
+- Game plan:
+  * They pass half guard most (43.5% of top time, 0.0% reach control) — fight for the underhook and knee-shield early so they cannot clear your knee-line.
+  * They spend 23.7% in 50/50 — clear your knee-line early and avoid stalling in equal leg positions.
+
+Player 2
+- Primary profile: Guard player (half guard bottom)
+- Sequence profile: Guard/turtle recycler
+- Secondary traits: recycles exchanges through recovery loops, passes half guard, 50/50 involvement
+- Evidence: guard passing 32.6%, dominant top 0.0%, guard bottom 43.8%, bottom defense 0.0%, 50/50 23.7% (overall top 32.6% / bottom 43.8%)
+- Passes: half guard 32.4% (0.0% to control); closed guard 0.2% (0.0% to control)
+- Guards played: half guard 43.5% (3.9% retained); closed guard 0.2% (0.0% retained)
+- Attributed time: 448 frames (14.9s)
+- Control tempo: average owned phase 4.31 frames (0.1s), longest owned phase 106 frames (3.5s)
+- Progression: advances 51, concessions 51, net -1.0 (biggest advance +2.0, biggest concession -2.0)
+- Key positions: Half guard (bottom) 195 (6.5s), Half guard (passing) 145 (4.8s), 50/50 guard 106 (3.5s), Closed guard (passing) 1 (0.0s), Closed guard (bottom) 1 (0.0s)
+- Sequence read: Frequently revisits guard or turtle instead of letting the exchange end cleanly.
+- Recurring transitions: Half guard -> Half guard (98), Half guard -> Closed guard (2), Closed guard -> Half guard (2), Half guard -> 50/50 guard (1)
+- Recurring chains: Half guard -> Half guard -> Half guard (95), Half guard -> Half guard -> Closed guard (2), Half guard -> Closed guard -> Half guard (2), Closed guard -> Half guard -> Half guard (2)
+- Efficient counter style: Structured passing that clears their half guard and denies the recovery
+- Game plan:
+  * They play half guard 43.5% of bottom time, holding or recovering it 3.9% of the time — control the inside knee and head, clear the knee-line, then flatten before settling chest pressure.
+  * They sweep or wrestle-up from half guard 96.1% of the time — kill the underhook and keep your weight back before passing.
+  * They spend 23.7% in 50/50 — clear your knee-line early and avoid stalling in equal leg positions.
+
+Rows analyzed: 448

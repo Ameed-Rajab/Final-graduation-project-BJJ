@@ -1,0 +1,4 @@
+2026-04-07 16:39:23,258  INFO  Video: data/videos/input.mp4
+2026-04-07 16:39:23,258  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-04-07 16:39:29,647  INFO  frame=0 saved=0 dets=5 tracks=2 poses=2 elapsed=1.7s
+2026-04-07 16:39:57,706  INFO  frame=25 saved=25 dets=5 tracks=2 poses=2 elapsed=29.8s

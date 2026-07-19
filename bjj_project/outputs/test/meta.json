@@ -1,0 +1,16 @@
+{
+  "video": "data/videos/input.mp4",
+  "frames_saved": 29,
+  "det_config": "mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py",
+  "det_checkpoint": "checkpoints/detection/deformable_detr_twostage_refine.pth",
+  "det_class_idx": 0,
+  "det_thr": 0.1,
+  "max_dets": 12,
+  "tracker_iou": 0.15,
+  "tracker_max_lost": 90,
+  "pose_config": "ViTPose/configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/ViTPose_base_coco_256x192.py",
+  "pose_checkpoint": "checkpoints/pose/vitpose.pth",
+  "device": "cuda:0",
+  "out_root": "outputs/test",
+  "vis_video": "outputs/test\\vis_input.mp4"
+}

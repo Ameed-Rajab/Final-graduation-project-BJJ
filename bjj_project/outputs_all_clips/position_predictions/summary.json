@@ -1,0 +1,26 @@
+{
+  "tracking_root": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\outputs_all_clips",
+  "video_path": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\temp\\user_1_22_train_demo_30s.mp4",
+  "yolo_weights": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\hybrid_pipeline_handoff\\weights\\bjj_yolo18_domain.pt",
+  "frames_total_tracking": 450,
+  "frames_used": 448,
+  "skipped_no_people": 2,
+  "skipped_no_yolo": 0,
+  "classifier_order": "trackid",
+  "enforce_bottom_2": true,
+  "smooth_window": 15,
+  "match_iou_thr": 0.2,
+  "dist_pred_fixed": {
+    "half_guard1": 145,
+    "half_guard2": 195,
+    "closed_guard1": 1,
+    "closed_guard2": 1,
+    "5050_guard": 106
+  },
+  "dist_pred_smooth": {
+    "half_guard1": 129,
+    "half_guard2": 212,
+    "5050_guard": 107
+  },
+  "csv": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\outputs_all_clips\\position_predictions\\positions.csv"
+}

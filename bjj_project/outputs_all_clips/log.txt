@@ -1,0 +1,87 @@
+2026-05-08 18:25:21,622  INFO  Video: temp\user_1_22_input.mp4
+2026-05-08 18:25:21,623  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-08 18:25:38,821  INFO  frame=0 saved=0 dets=2 dropped_huge=0 tracks=2 poses=2 refined=2 elapsed=9.4s
+2026-05-08 18:28:04,081  INFO  frame=25 saved=25 dets=3 dropped_huge=0 tracks=2 poses=2 refined=1 elapsed=154.6s
+2026-05-08 18:32:12,718  INFO  Video: temp\user_1_22_input.mp4
+2026-05-08 18:32:12,718  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-08 18:32:22,268  INFO  frame=0 saved=0 dets=2 dropped_huge=0 tracks=2 poses=2 refined=2 elapsed=4.0s
+2026-05-08 18:33:22,546  INFO  frame=25 saved=25 dets=3 dropped_huge=0 tracks=2 poses=2 refined=1 elapsed=64.3s
+2026-05-08 18:53:52,344  INFO  Video: temp\user_1_22_input.mp4
+2026-05-08 18:53:52,344  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-05-08 18:54:04,313  INFO  frame=0 saved=0 dets=2 dropped_huge=0 tracks=2 poses=2 refined=2 elapsed=4.0s
+2026-05-08 18:54:36,619  INFO  frame=25 saved=25 dets=3 dropped_huge=0 tracks=2 poses=2 refined=1 elapsed=36.3s
+2026-07-10 17:32:51,030  INFO  Video: temp\user_1_22_input.mp4
+2026-07-10 17:32:51,031  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-07-10 17:33:59,550  INFO  Video: temp\user_1_22_input.mp4
+2026-07-10 17:33:59,550  INFO  DETR:  cfg=mmdetection/configs/deformable_detr/deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=checkpoints/detection/deformable_detr_twostage_refine.pth
+2026-07-10 17:34:22,306  INFO  frame=0 saved=0 dets=2 dropped_huge=0 tracks=2 poses=2 refined=2 elapsed=7.3s
+2026-07-10 17:34:57,752  INFO  frame=25 saved=25 dets=3 dropped_huge=0 tracks=2 poses=2 refined=1 elapsed=42.8s
+2026-07-10 18:37:39,439  INFO  Video: C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\temp\user_1_22_train_demo_30s.mp4
+2026-07-10 18:37:39,441  INFO  DETR:  cfg=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\mmdetection\configs\deformable_detr\deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\checkpoints\detection\deformable_detr_twostage_refine.pth
+2026-07-10 18:37:57,124  INFO  frame=0 saved=0 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=9.4s
+2026-07-10 18:40:29,830  INFO  frame=25 saved=25 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=162.1s
+2026-07-10 18:43:05,862  INFO  frame=50 saved=50 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=318.2s
+2026-07-10 18:45:41,140  INFO  frame=75 saved=75 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=473.4s
+2026-07-10 18:47:28,950  INFO  Video: C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\temp\user_1_22_input.mp4
+2026-07-10 18:47:28,951  INFO  DETR:  cfg=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\mmdetection\configs\deformable_detr\deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\checkpoints\detection\deformable_detr_twostage_refine.pth
+2026-07-10 18:47:42,166  INFO  frame=0 saved=0 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=6.8s
+2026-07-10 18:50:08,352  INFO  frame=25 saved=25 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=153.0s
+2026-07-10 18:53:45,712  INFO  Video: C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\temp\user_1_22_input.mp4
+2026-07-10 18:53:45,712  INFO  DETR:  cfg=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\mmdetection\configs\deformable_detr\deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\checkpoints\detection\deformable_detr_twostage_refine.pth
+2026-07-10 18:54:01,008  INFO  frame=0 saved=0 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=7.3s
+2026-07-10 18:56:26,248  INFO  frame=25 saved=25 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=152.5s
+2026-07-10 18:57:51,379  INFO  Video: C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\temp\user_1_22_train_demo_30s.mp4
+2026-07-10 18:57:51,379  INFO  DETR:  cfg=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\mmdetection\configs\deformable_detr\deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\checkpoints\detection\deformable_detr_twostage_refine.pth
+2026-07-10 18:58:06,394  INFO  frame=0 saved=0 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=7.6s
+2026-07-10 19:00:40,362  INFO  frame=25 saved=25 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=161.6s
+2026-07-10 19:03:14,416  INFO  frame=50 saved=50 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=315.6s
+2026-07-10 19:32:07,669  INFO  Video: C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\temp\user_1_22_train_demo_30s.mp4
+2026-07-10 19:32:07,670  INFO  DETR:  cfg=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\mmdetection\configs\deformable_detr\deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\checkpoints\detection\deformable_detr_twostage_refine.pth
+2026-07-10 19:32:34,841  INFO  frame=0 saved=0 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=9.1s
+2026-07-10 19:35:08,611  INFO  frame=25 saved=25 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=162.9s
+2026-07-10 19:37:43,598  INFO  frame=50 saved=50 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=317.9s
+2026-07-10 19:40:17,586  INFO  frame=75 saved=75 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=471.9s
+2026-07-10 19:42:49,866  INFO  frame=100 saved=100 dets=3 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=624.2s
+2026-07-10 19:45:22,354  INFO  frame=125 saved=125 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=776.6s
+2026-07-10 19:47:54,552  INFO  frame=150 saved=150 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=928.8s
+2026-07-10 19:50:26,114  INFO  frame=175 saved=175 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1080.4s
+2026-07-10 19:59:39,326  INFO  Video: C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\temp\user_1_22_train_demo_30s.mp4
+2026-07-10 19:59:39,326  INFO  DETR:  cfg=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\mmdetection\configs\deformable_detr\deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\checkpoints\detection\deformable_detr_twostage_refine.pth
+2026-07-10 19:59:58,765  INFO  frame=0 saved=0 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=5.5s
+2026-07-10 20:02:23,632  INFO  frame=25 saved=25 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=150.4s
+2026-07-10 20:04:58,625  INFO  frame=50 saved=50 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=305.4s
+2026-07-10 20:07:30,247  INFO  frame=75 saved=75 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=457.0s
+2026-07-10 20:10:04,576  INFO  frame=100 saved=100 dets=3 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=611.3s
+2026-07-10 20:12:39,734  INFO  frame=125 saved=125 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=766.5s
+2026-07-10 20:15:14,871  INFO  frame=150 saved=150 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=921.6s
+2026-07-10 20:17:48,987  INFO  frame=175 saved=175 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1075.7s
+2026-07-10 20:20:22,618  INFO  frame=200 saved=200 dets=2 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1229.3s
+2026-07-10 20:22:56,476  INFO  frame=225 saved=225 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1383.2s
+2026-07-10 20:25:31,112  INFO  frame=250 saved=250 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1537.8s
+2026-07-10 20:28:05,118  INFO  frame=275 saved=275 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1691.8s
+2026-07-10 20:30:39,128  INFO  frame=300 saved=300 dets=3 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1845.9s
+2026-07-10 20:33:10,459  INFO  frame=325 saved=325 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1997.2s
+2026-07-10 20:35:44,308  INFO  frame=350 saved=350 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=2151.0s
+2026-07-10 20:38:19,767  INFO  frame=375 saved=375 dets=2 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=2306.5s
+2026-07-10 20:40:55,111  INFO  frame=400 saved=400 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=2461.8s
+2026-07-10 20:43:29,963  INFO  frame=425 saved=425 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=2616.7s
+2026-07-10 21:57:53,683  INFO  Video: C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\temp\user_1_22_train_demo_30s.mp4
+2026-07-10 21:57:53,686  INFO  DETR:  cfg=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\mmdetection\configs\deformable_detr\deformable_detr_twostage_refine_r50_16x2_50e_coco.py ckpt=C:\Users\Ameed\Downloads\Compressed\bjj_project\bjj_project\checkpoints\detection\deformable_detr_twostage_refine.pth
+2026-07-10 21:58:31,677  INFO  frame=0 saved=0 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=8.5s
+2026-07-10 22:00:57,449  INFO  frame=25 saved=25 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=154.3s
+2026-07-10 22:03:40,833  INFO  frame=50 saved=50 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=317.7s
+2026-07-10 22:06:23,994  INFO  frame=75 saved=75 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=480.9s
+2026-07-10 22:09:03,785  INFO  frame=100 saved=100 dets=3 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=640.7s
+2026-07-10 22:11:42,753  INFO  frame=125 saved=125 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=799.6s
+2026-07-10 22:14:21,870  INFO  frame=150 saved=150 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=958.7s
+2026-07-10 22:17:06,429  INFO  frame=175 saved=175 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1123.3s
+2026-07-10 22:19:50,225  INFO  frame=200 saved=200 dets=2 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1287.1s
+2026-07-10 22:22:36,027  INFO  frame=225 saved=225 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1452.9s
+2026-07-10 22:25:21,309  INFO  frame=250 saved=250 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1618.2s
+2026-07-10 22:28:09,310  INFO  frame=275 saved=275 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1786.2s
+2026-07-10 22:30:49,353  INFO  frame=300 saved=300 dets=3 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=1946.2s
+2026-07-10 22:33:25,625  INFO  frame=325 saved=325 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=2102.5s
+2026-07-10 22:36:08,713  INFO  frame=350 saved=350 dets=5 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=2265.6s
+2026-07-10 22:38:52,275  INFO  frame=375 saved=375 dets=2 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=2429.1s
+2026-07-10 22:41:34,051  INFO  frame=400 saved=400 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=2590.9s
+2026-07-10 22:44:15,125  INFO  frame=425 saved=425 dets=1 dropped_huge=0 tracks=2 poses=2 refined=0 elapsed=2752.0s

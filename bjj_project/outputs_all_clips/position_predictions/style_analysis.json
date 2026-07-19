@@ -1,0 +1,767 @@
+{
+  "input": {
+    "position_dir": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\outputs_all_clips\\position_predictions",
+    "summary_json": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\outputs_all_clips\\position_predictions\\summary.json",
+    "positions_csv": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\outputs_all_clips\\position_predictions\\positions.csv",
+    "label_column": "pred_fixed",
+    "fps": 30.0,
+    "confidence_filter": {
+      "column": "pred_smooth_conf",
+      "min_conf": 0.0,
+      "dropped": 0,
+      "rows_in": 448,
+      "rows_out": 448
+    }
+  },
+  "source_summary": {
+    "tracking_root": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\outputs_all_clips",
+    "video_path": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\temp\\user_1_22_train_demo_30s.mp4",
+    "yolo_weights": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\hybrid_pipeline_handoff\\weights\\bjj_yolo18_domain.pt",
+    "frames_total_tracking": 450,
+    "frames_used": 448,
+    "skipped_no_people": 2,
+    "skipped_no_yolo": 0,
+    "classifier_order": "trackid",
+    "enforce_bottom_2": true,
+    "smooth_window": 15,
+    "match_iou_thr": 0.2,
+    "dist_pred_fixed": {
+      "half_guard1": 145,
+      "half_guard2": 195,
+      "closed_guard1": 1,
+      "closed_guard2": 1,
+      "5050_guard": 106
+    },
+    "dist_pred_smooth": {
+      "half_guard1": 129,
+      "half_guard2": 212,
+      "5050_guard": 107
+    },
+    "csv": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\outputs_all_clips\\position_predictions\\positions.csv"
+  },
+  "reliability": {
+    "score": 1.0,
+    "band": "high",
+    "warnings": [],
+    "details": {
+      "track_columns": {}
+    }
+  },
+  "match_overview": {
+    "frames_analyzed": 448,
+    "seconds_analyzed": 14.93,
+    "top_position_families": [
+      {
+        "family": "half_guard",
+        "label": "Half guard",
+        "frames": 340.0,
+        "seconds": 11.33,
+        "share_percent": 75.9
+      },
+      {
+        "family": "5050_guard",
+        "label": "50/50 guard",
+        "frames": 106.0,
+        "seconds": 3.53,
+        "share_percent": 23.7
+      },
+      {
+        "family": "closed_guard",
+        "label": "Closed guard",
+        "frames": 2.0,
+        "seconds": 0.07,
+        "share_percent": 0.4
+      }
+    ]
+  },
+  "match_sequence": {
+    "segment_count": 6,
+    "average_phase_frames": 74.67,
+    "average_phase_seconds": 2.49,
+    "opening_sequence": [
+      "Half guard",
+      "Closed guard",
+      "Half guard",
+      "Closed guard",
+      "Half guard",
+      "50/50 guard"
+    ],
+    "ending_sequence": [
+      "Half guard",
+      "Closed guard",
+      "Half guard",
+      "Closed guard",
+      "Half guard",
+      "50/50 guard"
+    ],
+    "top_transitions": [
+      {
+        "pattern": [
+          "half_guard",
+          "closed_guard"
+        ],
+        "label": "Half guard -> Closed guard",
+        "count": 2
+      },
+      {
+        "pattern": [
+          "closed_guard",
+          "half_guard"
+        ],
+        "label": "Closed guard -> Half guard",
+        "count": 2
+      },
+      {
+        "pattern": [
+          "half_guard",
+          "5050_guard"
+        ],
+        "label": "Half guard -> 50/50 guard",
+        "count": 1
+      }
+    ],
+    "top_chains": [
+      {
+        "pattern": [
+          "half_guard",
+          "closed_guard",
+          "half_guard"
+        ],
+        "label": "Half guard -> Closed guard -> Half guard",
+        "count": 2
+      },
+      {
+        "pattern": [
+          "closed_guard",
+          "half_guard",
+          "closed_guard"
+        ],
+        "label": "Closed guard -> Half guard -> Closed guard",
+        "count": 1
+      },
+      {
+        "pattern": [
+          "closed_guard",
+          "half_guard",
+          "5050_guard"
+        ],
+        "label": "Closed guard -> Half guard -> 50/50 guard",
+        "count": 1
+      }
+    ],
+    "motifs": {
+      "standing_to_takedown": 0,
+      "takedown_to_control": 0,
+      "takedown_to_reset": 0,
+      "guard_to_turtle": 0,
+      "turtle_to_guard": 0,
+      "turtle_to_attack": 0,
+      "pass_to_finish": 0,
+      "finish_cycle": 0
+    },
+    "longest_phases": [
+      {
+        "family": "half_guard",
+        "label": "Half guard",
+        "duration_rows": 200,
+        "duration_seconds": 6.67,
+        "start_frame": 19,
+        "end_frame": 218
+      },
+      {
+        "family": "half_guard",
+        "label": "Half guard",
+        "duration_rows": 122,
+        "duration_seconds": 4.07,
+        "start_frame": 220,
+        "end_frame": 341
+      },
+      {
+        "family": "5050_guard",
+        "label": "50/50 guard",
+        "duration_rows": 106,
+        "duration_seconds": 3.53,
+        "start_frame": 342,
+        "end_frame": 447
+      },
+      {
+        "family": "half_guard",
+        "label": "Half guard",
+        "duration_rows": 18,
+        "duration_seconds": 0.6,
+        "start_frame": 0,
+        "end_frame": 17
+      },
+      {
+        "family": "closed_guard",
+        "label": "Closed guard",
+        "duration_rows": 1,
+        "duration_seconds": 0.03,
+        "start_frame": 18,
+        "end_frame": 18
+      }
+    ],
+    "narratives": [
+      "The match features long control phases once a dominant position is established."
+    ]
+  },
+  "players": [
+    {
+      "player_id": 1,
+      "player_name": "Player 1",
+      "primary_profile": "Guard passer (half guard passer)",
+      "secondary_traits": [
+        "recycles exchanges through recovery loops",
+        "plays half guard",
+        "50/50 involvement"
+      ],
+      "metrics": {
+        "attributed_frames": 448.0,
+        "attributed_seconds": 14.93,
+        "top_ratio_percent": 43.8,
+        "bottom_ratio_percent": 32.6,
+        "guard_pass_ratio_percent": 43.8,
+        "guard_play_ratio_percent": 32.6,
+        "dominant_top_ratio_percent": 0.0,
+        "bottom_defense_ratio_percent": 0.0,
+        "turtle_ratio_percent": 0.0,
+        "leg_ratio_percent": 23.7,
+        "neutral_ratio_percent": 23.7,
+        "wrestling_ratio_percent": 0.0,
+        "finish_ratio_percent": 0.0,
+        "guard_ratio_percent": 32.6
+      },
+      "top_families": [
+        {
+          "family": "half_guard",
+          "role": "top",
+          "label": "Half guard (passing)",
+          "frames": 195.0,
+          "seconds": 6.5,
+          "share_percent": 43.5
+        },
+        {
+          "family": "half_guard",
+          "role": "bottom",
+          "label": "Half guard (bottom)",
+          "frames": 145.0,
+          "seconds": 4.83,
+          "share_percent": 32.4
+        },
+        {
+          "family": "5050_guard",
+          "role": "neutral",
+          "label": "50/50 guard",
+          "frames": 106.0,
+          "seconds": 3.53,
+          "share_percent": 23.7
+        },
+        {
+          "family": "closed_guard",
+          "role": "bottom",
+          "label": "Closed guard (bottom)",
+          "frames": 1.0,
+          "seconds": 0.03,
+          "share_percent": 0.2
+        },
+        {
+          "family": "closed_guard",
+          "role": "top",
+          "label": "Closed guard (passing)",
+          "frames": 1.0,
+          "seconds": 0.03,
+          "share_percent": 0.2
+        }
+      ],
+      "passing": [
+        {
+          "guard": "half_guard",
+          "label": "half guard",
+          "attempts": 51,
+          "frames": 195.0,
+          "seconds": 6.5,
+          "share_percent": 43.5,
+          "converted": 0,
+          "swept": 49,
+          "reset": 2,
+          "conversion_percent": 0.0,
+          "avg_seconds_to_pass": 0.0
+        },
+        {
+          "guard": "closed_guard",
+          "label": "closed guard",
+          "attempts": 1,
+          "frames": 1.0,
+          "seconds": 0.03,
+          "share_percent": 0.2,
+          "converted": 0,
+          "swept": 1,
+          "reset": 0,
+          "conversion_percent": 0.0,
+          "avg_seconds_to_pass": 0.0
+        }
+      ],
+      "guard_play": [
+        {
+          "guard": "half_guard",
+          "label": "half guard",
+          "instances": 50,
+          "frames": 145.0,
+          "seconds": 4.83,
+          "share_percent": 32.4,
+          "swept_up": 50,
+          "passed": 0,
+          "retained": 0,
+          "sweep_percent": 100.0,
+          "retention_percent": 0.0
+        },
+        {
+          "guard": "closed_guard",
+          "label": "closed guard",
+          "instances": 1,
+          "frames": 1.0,
+          "seconds": 0.03,
+          "share_percent": 0.2,
+          "swept_up": 1,
+          "passed": 0,
+          "retained": 0,
+          "sweep_percent": 100.0,
+          "retention_percent": 0.0
+        }
+      ],
+      "sequence": {
+        "segment_count": 104,
+        "average_owned_phase_frames": 4.31,
+        "average_owned_phase_seconds": 0.14,
+        "longest_owned_phase_frames": 106,
+        "longest_owned_phase_seconds": 3.53,
+        "sequence_profile": "Guard/turtle recycler",
+        "narratives": [
+          "Frequently revisits guard or turtle instead of letting the exchange end cleanly."
+        ],
+        "motifs": {
+          "standing_to_takedown": 0,
+          "takedown_to_control": 0,
+          "takedown_to_reset": 0,
+          "guard_turtle_loops": 0,
+          "guard_reentries": 98,
+          "turtle_to_attack": 0,
+          "pass_to_finish": 0,
+          "finish_cycle": 0
+        },
+        "top_transitions": [
+          {
+            "pattern": [
+              "half_guard",
+              "half_guard"
+            ],
+            "label": "Half guard -> Half guard",
+            "count": 98
+          },
+          {
+            "pattern": [
+              "half_guard",
+              "closed_guard"
+            ],
+            "label": "Half guard -> Closed guard",
+            "count": 2
+          },
+          {
+            "pattern": [
+              "closed_guard",
+              "half_guard"
+            ],
+            "label": "Closed guard -> Half guard",
+            "count": 2
+          },
+          {
+            "pattern": [
+              "half_guard",
+              "5050_guard"
+            ],
+            "label": "Half guard -> 50/50 guard",
+            "count": 1
+          }
+        ],
+        "top_chains": [
+          {
+            "pattern": [
+              "half_guard",
+              "half_guard",
+              "half_guard"
+            ],
+            "label": "Half guard -> Half guard -> Half guard",
+            "count": 95
+          },
+          {
+            "pattern": [
+              "half_guard",
+              "half_guard",
+              "closed_guard"
+            ],
+            "label": "Half guard -> Half guard -> Closed guard",
+            "count": 2
+          },
+          {
+            "pattern": [
+              "half_guard",
+              "closed_guard",
+              "half_guard"
+            ],
+            "label": "Half guard -> Closed guard -> Half guard",
+            "count": 2
+          },
+          {
+            "pattern": [
+              "closed_guard",
+              "half_guard",
+              "half_guard"
+            ],
+            "label": "Closed guard -> Half guard -> Half guard",
+            "count": 2
+          }
+        ],
+        "longest_owned_phases": [
+          {
+            "family": "5050_guard",
+            "label": "50/50 guard",
+            "role": "neutral",
+            "duration_rows": 106,
+            "duration_seconds": 3.53,
+            "start_frame": 342,
+            "end_frame": 447
+          },
+          {
+            "family": "half_guard",
+            "label": "Half guard (passing)",
+            "role": "top",
+            "duration_rows": 18,
+            "duration_seconds": 0.6,
+            "start_frame": 24,
+            "end_frame": 41
+          },
+          {
+            "family": "half_guard",
+            "label": "Half guard (passing)",
+            "role": "top",
+            "duration_rows": 18,
+            "duration_seconds": 0.6,
+            "start_frame": 251,
+            "end_frame": 268
+          },
+          {
+            "family": "half_guard",
+            "label": "Half guard (passing)",
+            "role": "top",
+            "duration_rows": 11,
+            "duration_seconds": 0.37,
+            "start_frame": 139,
+            "end_frame": 149
+          },
+          {
+            "family": "half_guard",
+            "label": "Half guard (bottom)",
+            "role": "bottom",
+            "duration_rows": 11,
+            "duration_seconds": 0.37,
+            "start_frame": 166,
+            "end_frame": 176
+          }
+        ],
+        "progression": {
+          "advances": 51,
+          "concessions": 51,
+          "net_progression": 1.0,
+          "biggest_advance": 2.0,
+          "biggest_concession": -2.0
+        }
+      },
+      "counter_plan": {
+        "recommended_style": "Deny their half guard pass and steer them into a guard they finish less often",
+        "key_actions": [
+          "They pass half guard most (43.5% of top time, 0.0% reach control) \u2014 fight for the underhook and knee-shield early so they cannot clear your knee-line.",
+          "They spend 23.7% in 50/50 \u2014 clear your knee-line early and avoid stalling in equal leg positions."
+        ]
+      }
+    },
+    {
+      "player_id": 2,
+      "player_name": "Player 2",
+      "primary_profile": "Guard player (half guard bottom)",
+      "secondary_traits": [
+        "recycles exchanges through recovery loops",
+        "passes half guard",
+        "50/50 involvement"
+      ],
+      "metrics": {
+        "attributed_frames": 448.0,
+        "attributed_seconds": 14.93,
+        "top_ratio_percent": 32.6,
+        "bottom_ratio_percent": 43.8,
+        "guard_pass_ratio_percent": 32.6,
+        "guard_play_ratio_percent": 43.8,
+        "dominant_top_ratio_percent": 0.0,
+        "bottom_defense_ratio_percent": 0.0,
+        "turtle_ratio_percent": 0.0,
+        "leg_ratio_percent": 23.7,
+        "neutral_ratio_percent": 23.7,
+        "wrestling_ratio_percent": 0.0,
+        "finish_ratio_percent": 0.0,
+        "guard_ratio_percent": 43.8
+      },
+      "top_families": [
+        {
+          "family": "half_guard",
+          "role": "bottom",
+          "label": "Half guard (bottom)",
+          "frames": 195.0,
+          "seconds": 6.5,
+          "share_percent": 43.5
+        },
+        {
+          "family": "half_guard",
+          "role": "top",
+          "label": "Half guard (passing)",
+          "frames": 145.0,
+          "seconds": 4.83,
+          "share_percent": 32.4
+        },
+        {
+          "family": "5050_guard",
+          "role": "neutral",
+          "label": "50/50 guard",
+          "frames": 106.0,
+          "seconds": 3.53,
+          "share_percent": 23.7
+        },
+        {
+          "family": "closed_guard",
+          "role": "top",
+          "label": "Closed guard (passing)",
+          "frames": 1.0,
+          "seconds": 0.03,
+          "share_percent": 0.2
+        },
+        {
+          "family": "closed_guard",
+          "role": "bottom",
+          "label": "Closed guard (bottom)",
+          "frames": 1.0,
+          "seconds": 0.03,
+          "share_percent": 0.2
+        }
+      ],
+      "passing": [
+        {
+          "guard": "half_guard",
+          "label": "half guard",
+          "attempts": 50,
+          "frames": 145.0,
+          "seconds": 4.83,
+          "share_percent": 32.4,
+          "converted": 0,
+          "swept": 50,
+          "reset": 0,
+          "conversion_percent": 0.0,
+          "avg_seconds_to_pass": 0.0
+        },
+        {
+          "guard": "closed_guard",
+          "label": "closed guard",
+          "attempts": 1,
+          "frames": 1.0,
+          "seconds": 0.03,
+          "share_percent": 0.2,
+          "converted": 0,
+          "swept": 1,
+          "reset": 0,
+          "conversion_percent": 0.0,
+          "avg_seconds_to_pass": 0.0
+        }
+      ],
+      "guard_play": [
+        {
+          "guard": "half_guard",
+          "label": "half guard",
+          "instances": 51,
+          "frames": 195.0,
+          "seconds": 6.5,
+          "share_percent": 43.5,
+          "swept_up": 49,
+          "passed": 0,
+          "retained": 2,
+          "sweep_percent": 96.1,
+          "retention_percent": 3.9
+        },
+        {
+          "guard": "closed_guard",
+          "label": "closed guard",
+          "instances": 1,
+          "frames": 1.0,
+          "seconds": 0.03,
+          "share_percent": 0.2,
+          "swept_up": 1,
+          "passed": 0,
+          "retained": 0,
+          "sweep_percent": 100.0,
+          "retention_percent": 0.0
+        }
+      ],
+      "sequence": {
+        "segment_count": 104,
+        "average_owned_phase_frames": 4.31,
+        "average_owned_phase_seconds": 0.14,
+        "longest_owned_phase_frames": 106,
+        "longest_owned_phase_seconds": 3.53,
+        "sequence_profile": "Guard/turtle recycler",
+        "narratives": [
+          "Frequently revisits guard or turtle instead of letting the exchange end cleanly."
+        ],
+        "motifs": {
+          "standing_to_takedown": 0,
+          "takedown_to_control": 0,
+          "takedown_to_reset": 0,
+          "guard_turtle_loops": 0,
+          "guard_reentries": 98,
+          "turtle_to_attack": 0,
+          "pass_to_finish": 0,
+          "finish_cycle": 0
+        },
+        "top_transitions": [
+          {
+            "pattern": [
+              "half_guard",
+              "half_guard"
+            ],
+            "label": "Half guard -> Half guard",
+            "count": 98
+          },
+          {
+            "pattern": [
+              "half_guard",
+              "closed_guard"
+            ],
+            "label": "Half guard -> Closed guard",
+            "count": 2
+          },
+          {
+            "pattern": [
+              "closed_guard",
+              "half_guard"
+            ],
+            "label": "Closed guard -> Half guard",
+            "count": 2
+          },
+          {
+            "pattern": [
+              "half_guard",
+              "5050_guard"
+            ],
+            "label": "Half guard -> 50/50 guard",
+            "count": 1
+          }
+        ],
+        "top_chains": [
+          {
+            "pattern": [
+              "half_guard",
+              "half_guard",
+              "half_guard"
+            ],
+            "label": "Half guard -> Half guard -> Half guard",
+            "count": 95
+          },
+          {
+            "pattern": [
+              "half_guard",
+              "half_guard",
+              "closed_guard"
+            ],
+            "label": "Half guard -> Half guard -> Closed guard",
+            "count": 2
+          },
+          {
+            "pattern": [
+              "half_guard",
+              "closed_guard",
+              "half_guard"
+            ],
+            "label": "Half guard -> Closed guard -> Half guard",
+            "count": 2
+          },
+          {
+            "pattern": [
+              "closed_guard",
+              "half_guard",
+              "half_guard"
+            ],
+            "label": "Closed guard -> Half guard -> Half guard",
+            "count": 2
+          }
+        ],
+        "longest_owned_phases": [
+          {
+            "family": "5050_guard",
+            "label": "50/50 guard",
+            "role": "neutral",
+            "duration_rows": 106,
+            "duration_seconds": 3.53,
+            "start_frame": 342,
+            "end_frame": 447
+          },
+          {
+            "family": "half_guard",
+            "label": "Half guard (bottom)",
+            "role": "bottom",
+            "duration_rows": 18,
+            "duration_seconds": 0.6,
+            "start_frame": 24,
+            "end_frame": 41
+          },
+          {
+            "family": "half_guard",
+            "label": "Half guard (bottom)",
+            "role": "bottom",
+            "duration_rows": 18,
+            "duration_seconds": 0.6,
+            "start_frame": 251,
+            "end_frame": 268
+          },
+          {
+            "family": "half_guard",
+            "label": "Half guard (bottom)",
+            "role": "bottom",
+            "duration_rows": 11,
+            "duration_seconds": 0.37,
+            "start_frame": 139,
+            "end_frame": 149
+          },
+          {
+            "family": "half_guard",
+            "label": "Half guard (passing)",
+            "role": "top",
+            "duration_rows": 11,
+            "duration_seconds": 0.37,
+            "start_frame": 166,
+            "end_frame": 176
+          }
+        ],
+        "progression": {
+          "advances": 51,
+          "concessions": 51,
+          "net_progression": -1.0,
+          "biggest_advance": 2.0,
+          "biggest_concession": -2.0
+        }
+      },
+      "counter_plan": {
+        "recommended_style": "Structured passing that clears their half guard and denies the recovery",
+        "key_actions": [
+          "They play half guard 43.5% of bottom time, holding or recovering it 3.9% of the time \u2014 control the inside knee and head, clear the knee-line, then flatten before settling chest pressure.",
+          "They sweep or wrestle-up from half guard 96.1% of the time \u2014 kill the underhook and keep your weight back before passing.",
+          "They spend 23.7% in 50/50 \u2014 clear your knee-line early and avoid stalling in equal leg positions."
+        ]
+      }
+    }
+  ]
+}

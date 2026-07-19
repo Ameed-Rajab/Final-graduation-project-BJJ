@@ -1,0 +1,22 @@
+{
+  "video": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\temp\\user_1_22_train_demo_30s.mp4",
+  "frames_saved": 450,
+  "det_config": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\mmdetection\\configs\\deformable_detr\\deformable_detr_twostage_refine_r50_16x2_50e_coco.py",
+  "det_checkpoint": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\checkpoints\\detection\\deformable_detr_twostage_refine.pth",
+  "det_class_idx": 0,
+  "det_thr": 0.1,
+  "max_dets": 12,
+  "tracker_iou": 0.15,
+  "tracker_max_lost": 90,
+  "pose_config": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\ViTPose\\configs\\body\\2d_kpt_sview_rgb_img\\topdown_heatmap\\coco\\ViTPose_base_coco_256x192.py",
+  "pose_checkpoint": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\checkpoints\\pose\\vitpose.pth",
+  "device": "cuda:0",
+  "out_root": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\outputs_all_clips",
+  "vis_video": "C:\\Users\\Ameed\\Downloads\\Compressed\\bjj_project\\bjj_project\\outputs_all_clips\\vis_user_1_22_train_demo_30s.mp4",
+  "max_bbox_area_frac": 0.6,
+  "refine_bbox_from_pose": false,
+  "refine_min_kpts": 4,
+  "refine_kpt_thr": 0.3,
+  "refine_margin": 0.1,
+  "refine_shrink_ratio": 0.85
+}

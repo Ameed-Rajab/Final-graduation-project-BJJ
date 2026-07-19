@@ -1,0 +1,19 @@
+{
+  "tracking_root": "outputs/detr_ioutrack",
+  "frames_total": 56,
+  "frames_used": 56,
+  "frames_skipped": 0,
+  "order_invariant": false,
+  "smooth_window": 15,
+  "class_dist_raw": {
+    "open_guard1": 30,
+    "takedown1": 19,
+    "takedown2": 6,
+    "open_guard2": 1
+  },
+  "class_dist_smooth": {
+    "open_guard1": 39,
+    "takedown1": 17
+  },
+  "csv": "outputs/detr_ioutrack\\position_predictions\\positions.csv"
+}

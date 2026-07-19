@@ -1,0 +1,254 @@
+{
+  "input": {
+    "position_dir": "outputs\\detr_ioutrack\\position_predictions",
+    "summary_json": "outputs\\detr_ioutrack\\position_predictions\\summary.json",
+    "positions_csv": "outputs\\detr_ioutrack\\position_predictions\\positions.csv",
+    "label_column": "pred_smooth"
+  },
+  "source_summary": {
+    "tracking_root": "outputs/detr_ioutrack",
+    "frames_total": 56,
+    "frames_used": 56,
+    "frames_skipped": 0,
+    "order_invariant": false,
+    "smooth_window": 15,
+    "class_dist_raw": {
+      "open_guard1": 30,
+      "takedown1": 19,
+      "takedown2": 6,
+      "open_guard2": 1
+    },
+    "class_dist_smooth": {
+      "open_guard1": 39,
+      "takedown1": 17
+    },
+    "csv": "outputs/detr_ioutrack\\position_predictions\\positions.csv"
+  },
+  "reliability": {
+    "score": 1.0,
+    "band": "high",
+    "warnings": [],
+    "details": {
+      "track_columns": {
+        "track_id_a": {
+          "unique_ids": [
+            "1"
+          ],
+          "unique_count": 1,
+          "changes": 0,
+          "dominant_id": "1",
+          "dominant_fraction": 1.0
+        },
+        "track_id_b": {
+          "unique_ids": [
+            "2"
+          ],
+          "unique_count": 1,
+          "changes": 0,
+          "dominant_id": "2",
+          "dominant_fraction": 1.0
+        }
+      }
+    }
+  },
+  "match_overview": {
+    "frames_analyzed": 56,
+    "top_position_families": [
+      {
+        "family": "open_guard",
+        "label": "Open guard",
+        "frames": 39.0,
+        "share_percent": 69.6
+      },
+      {
+        "family": "takedown",
+        "label": "Takedown",
+        "frames": 17.0,
+        "share_percent": 30.4
+      }
+    ]
+  },
+  "match_sequence": {
+    "segment_count": 2,
+    "average_phase_frames": 28.0,
+    "opening_sequence": [
+      "Open guard",
+      "Takedown"
+    ],
+    "ending_sequence": [
+      "Open guard",
+      "Takedown"
+    ],
+    "top_transitions": [
+      {
+        "pattern": [
+          "open_guard",
+          "takedown"
+        ],
+        "label": "Open guard -> Takedown",
+        "count": 1
+      }
+    ],
+    "top_chains": [],
+    "motifs": {
+      "standing_to_takedown": 0,
+      "takedown_to_control": 0,
+      "takedown_to_reset": 0,
+      "guard_to_turtle": 0,
+      "turtle_to_guard": 0,
+      "turtle_to_attack": 0,
+      "pass_to_finish": 0,
+      "finish_cycle": 0
+    },
+    "longest_phases": [
+      {
+        "family": "open_guard",
+        "label": "Open guard",
+        "duration_rows": 39,
+        "start_frame": 0,
+        "end_frame": 38
+      },
+      {
+        "family": "takedown",
+        "label": "Takedown",
+        "duration_rows": 17,
+        "start_frame": 39,
+        "end_frame": 55
+      }
+    ],
+    "narratives": [
+      "The match features long control phases once a dominant position is established."
+    ]
+  },
+  "players": [
+    {
+      "player_id": 1,
+      "player_name": "Player 1",
+      "primary_profile": "Guard-first player (open-guard leaning)",
+      "secondary_traits": [
+        "holds positions once established",
+        "back-taking threat",
+        "takedown threat"
+      ],
+      "metrics": {
+        "attributed_frames": 56.0,
+        "guard_ratio_percent": 69.6,
+        "top_ratio_percent": 30.4,
+        "turtle_ratio_percent": 0.0,
+        "leg_ratio_percent": 0.0,
+        "wrestling_ratio_percent": 30.4,
+        "finish_ratio_percent": 0.0
+      },
+      "top_families": [
+        {
+          "family": "open_guard",
+          "label": "Open guard",
+          "frames": 39.0,
+          "share_percent": 69.6
+        },
+        {
+          "family": "takedown",
+          "label": "Takedown",
+          "frames": 17.0,
+          "share_percent": 30.4
+        }
+      ],
+      "sequence": {
+        "segment_count": 2,
+        "average_owned_phase_frames": 28.0,
+        "longest_owned_phase_frames": 39,
+        "sequence_profile": "Long-phase consolidator",
+        "narratives": [
+          "Has at least a few long ownership phases once the position is established."
+        ],
+        "motifs": {
+          "standing_to_takedown": 0,
+          "takedown_to_control": 0,
+          "takedown_to_reset": 0,
+          "guard_turtle_loops": 0,
+          "guard_reentries": 0,
+          "turtle_to_attack": 0,
+          "pass_to_finish": 0,
+          "finish_cycle": 0
+        },
+        "top_transitions": [
+          {
+            "pattern": [
+              "open_guard",
+              "takedown"
+            ],
+            "label": "Open guard -> Takedown",
+            "count": 1
+          }
+        ],
+        "top_chains": [],
+        "longest_owned_phases": [
+          {
+            "family": "open_guard",
+            "label": "Open guard",
+            "duration_rows": 39,
+            "start_frame": 0,
+            "end_frame": 38
+          },
+          {
+            "family": "takedown",
+            "label": "Takedown",
+            "duration_rows": 17,
+            "start_frame": 39,
+            "end_frame": 55
+          }
+        ]
+      },
+      "counter_plan": {
+        "recommended_style": "Structured passing with posture and leg-control discipline",
+        "key_actions": [
+          "Win grips before stepping in, then pin a shin or knee line before committing to the pass.",
+          "Use angle-changing passes instead of driving straight into their open guard."
+        ]
+      }
+    },
+    {
+      "player_id": 2,
+      "player_name": "Player 2",
+      "primary_profile": "Balanced positional player",
+      "secondary_traits": [],
+      "metrics": {
+        "attributed_frames": 1.0,
+        "guard_ratio_percent": 0.0,
+        "top_ratio_percent": 0.0,
+        "turtle_ratio_percent": 0.0,
+        "leg_ratio_percent": 0.0,
+        "wrestling_ratio_percent": 0.0,
+        "finish_ratio_percent": 0.0
+      },
+      "top_families": [],
+      "sequence": {
+        "segment_count": 0,
+        "average_owned_phase_frames": 0.0,
+        "longest_owned_phase_frames": 0,
+        "sequence_profile": "Mixed transition player",
+        "narratives": [],
+        "motifs": {
+          "standing_to_takedown": 0,
+          "takedown_to_control": 0,
+          "takedown_to_reset": 0,
+          "guard_turtle_loops": 0,
+          "guard_reentries": 0,
+          "turtle_to_attack": 0,
+          "pass_to_finish": 0,
+          "finish_cycle": 0
+        },
+        "top_transitions": [],
+        "top_chains": [],
+        "longest_owned_phases": []
+      },
+      "counter_plan": {
+        "recommended_style": "Force them away from their preferred phase and play first",
+        "key_actions": [
+          "Set the pace early so they spend less time in comfortable neutral exchanges.",
+          "Keep transitions tight and avoid loose scrambles that let them re-enter their best positions."
+        ]
+      }
+    }
+  ]
+}

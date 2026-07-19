@@ -1,0 +1,47 @@
+Player Style Analysis
+
+Input
+- Position directory: outputs\detr_ioutrack\position_predictions
+- CSV: outputs\detr_ioutrack\position_predictions\positions.csv
+- Label column used: pred_smooth
+- Frames used: 56 / 56 (skipped: 0)
+- Attribution reliability: high (1.00)
+
+Match Sequence View
+- Family phases: 2 segments, average 28.0 frames per phase
+- Opening flow: Open guard, Takedown
+- Ending flow: Open guard, Takedown
+- Common transitions: Open guard -> Takedown (1)
+- Common chains: none
+- Strong motifs: guard->turtle 0, turtle->attack 0, pass->finish 0, finish cycles 0, takedown->reset 0, takedown->control 0
+- Read: The match features long control phases once a dominant position is established.
+
+Player 1
+- Primary profile: Guard-first player (open-guard leaning)
+- Sequence profile: Long-phase consolidator
+- Secondary traits: holds positions once established, back-taking threat, takedown threat
+- Evidence: guard 69.6%, top control 30.4%, turtle/scramble 0.0%, 50/50 0.0%, wrestling 30.4%
+- Control tempo: average owned phase 28.0 frames, longest owned phase 39 frames
+- Key positions: Open guard 39, Takedown 17
+- Sequence read: Has at least a few long ownership phases once the position is established.
+- Recurring transitions: Open guard -> Takedown (1)
+- Recurring chains: none
+- Efficient counter style: Structured passing with posture and leg-control discipline
+- Game plan:
+  * Win grips before stepping in, then pin a shin or knee line before committing to the pass.
+  * Use angle-changing passes instead of driving straight into their open guard.
+
+Player 2
+- Primary profile: Balanced positional player
+- Sequence profile: Mixed transition player
+- Evidence: guard 0.0%, top control 0.0%, turtle/scramble 0.0%, 50/50 0.0%, wrestling 0.0%
+- Control tempo: average owned phase 0.0 frames, longest owned phase 0 frames
+- Key positions: 
+- Recurring transitions: none
+- Recurring chains: none
+- Efficient counter style: Force them away from their preferred phase and play first
+- Game plan:
+  * Set the pace early so they spend less time in comfortable neutral exchanges.
+  * Keep transitions tight and avoid loose scrambles that let them re-enter their best positions.
+
+Rows analyzed: 56

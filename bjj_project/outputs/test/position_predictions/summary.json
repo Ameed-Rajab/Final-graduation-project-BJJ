@@ -1,0 +1,20 @@
+{
+  "tracking_root": "outputs/test",
+  "frames_total": 29,
+  "frames_used": 29,
+  "frames_skipped": 0,
+  "order_invariant": false,
+  "smooth_window": 15,
+  "class_dist_raw": {
+    "back2": 1,
+    "takedown1": 1,
+    "takedown2": 2,
+    "open_guard2": 15,
+    "open_guard1": 10
+  },
+  "class_dist_smooth": {
+    "open_guard2": 19,
+    "open_guard1": 10
+  },
+  "csv": "outputs/test\\position_predictions\\positions.csv"
+}
